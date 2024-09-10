@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.4.1",
     "@nextui-org/react": "^2.4.6",
     "@radix-ui/react-navigation-menu": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
@@ -16,14 +17,17 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "lucide-react": "^0.439.0",
+    "mongoose": "^8.6.1",
     "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18",
     "react-use-measure": "^2.1.1",
+    "svix": "^1.32.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/react": "18.3.5",
     "daisyui": "^4.12.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
